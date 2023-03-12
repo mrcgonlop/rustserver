@@ -11,12 +11,8 @@ crate-type = ["cdylib"]
 [dependencies]
 wasm-bindgen = "0.2.81"
 
-[dependencies.dioxus]
-version = "0.2.4"
-features = [
-    'web'
-]
-
+[dependencies.dioxus-web]
+version = "0.3.1"
 
 [dependencies.web-sys]
 version = "0.3.4"

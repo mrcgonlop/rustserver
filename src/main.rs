@@ -24,7 +24,7 @@ async fn main() -> std::io::Result<()> {
                 web::route().to(|| HttpResponse::Found().header("Location", "/").finish()),
             )
     })
-    .bind("192.168.0.157:8080")?
+    .bind("192.168.0.22:8080")?
     .bind("0.0.0.0:8080")?
     .run()
     .await
